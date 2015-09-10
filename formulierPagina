@@ -53,28 +53,28 @@
 
         <h2>Project</h2>
 
-<h3>Project</h3>
+        <h3>Project</h3>
 
-<form>
-<label>Project Titel <input type="text" name="Titel"></label>
-</form>
+        <form>
+        <label>Project Titel <input type="text" name="Titel"></label>
+        </form>
 
-<form>
-<textarea name="Opdracht omschrijving" cols="30" rows="4">Opdracht omschrijving invoeren...</textarea>
-
-
-<textarea name="Doelgroep omschrijving" cols="30" rows="4">Doelgroep omschrijving invoeren...</textarea>
+        <form>
+        <textarea name="Opdracht omschrijving" cols="30" rows="4">Opdracht omschrijving invoeren...</textarea>
 
 
-<textarea name="Doelstelling" cols="30" rows="4">Doelstelling/intentie van het project!</textarea>
+        <textarea name="Doelgroep omschrijving" cols="30" rows="4">Doelgroep omschrijving invoeren...</textarea>
 
-    </form>
 
-    <form>
-        <label>Looptijd van <input type="date" name="Looptijd"></label>
-        <label>Tot <input type="date" name="Looptijd"></label>
-        <label>Deadline <input type="date" name="Deadline"></label>
-    </form>
+        <textarea name="Doelstelling" cols="30" rows="4">Doelstelling/intentie van het project!</textarea>
+
+        </form>
+
+        <form>
+            <label>Looptijd van <input type="date" name="Looptijd"></label>
+            <label>Tot <input type="date" name="Looptijd"></label>
+            <label>Deadline <input type="date" name="Deadline"></label>
+        </form>
 
 
         <form>
