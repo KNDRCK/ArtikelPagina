@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<head>
 
+    <meta charset="UTF-8">
+    <title>Formulierpagina</title>
+
+</head>
+
+<body>
+
+      <h1>Aanmelden</h1>
+
+        <p>
+        Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+        Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+        lopen de studenten stage, in het tweede en afstudeerjaar.
+        </p>
+
+        <p>
+        CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatihheve stad
+        Amsterdam.
+        </p>
+
+        <p>
+        Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+        Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+        Voor vragen of opmerkingen kunt u <a href=#>contact</a> met ons op.
+        </p>
+
+
+
+        <form>
+          <fieldset>
+             <legend>Contactgegevens:</legend>
+            <label>Naam  <input type="text" name="Naam"></label>
+            <label>Email <input type="email" name="Email"></label>
+            <label>Bedrijf <input type="text" name="Bedrijf"></label>
+            <label>Adres <input type="text" name="Adres"></label>
+            <label>Postcode <input type="text" name="Postcode"></label>
+            <label>Plaats <input type="text" name="Plaats"></label>
+            <label>Telefoon <input type="text" name="Telefoon"></label>
+          </fieldset>
+        </form>
+
+        <p> Ik wil mij aanmelden:</p>
+
+        <form>
+
+        <input type="radio" name="aanmelden" value="Voor een project"> Voor een project
+        <input type="radio" name="aanmelden" value="Als stagebedrijf"> Als stagebedrijf
+
+        </form>
+
+        <h2>Project</h2>
+
+<h3>Project</h3>
+
+<form>
+<label>Project Titel <input type="text" name="Titel"></label>
+</form>
+
+<form>
+<textarea name="Opdracht omschrijving" cols="30" rows="4">Opdracht omschrijving invoeren...</textarea>
+
+
+<textarea name="Doelgroep omschrijving" cols="30" rows="4">Doelgroep omschrijving invoeren...</textarea>
+
+
+<textarea name="Doelstelling" cols="30" rows="4">Doelstelling/intentie van het project!</textarea>
+
+    </form>
+
+    <form>
+        <label>Looptijd van <input type="date" name="Looptijd"></label>
+        <label>Tot <input type="date" name="Looptijd"></label>
+        <label>Deadline <input type="date" name="Deadline"></label>
+    </form>
+
+
+        <form>
+            <fieldset>
+            <legend>Geschikt voor:</legend>
+         <input type="radio" name="tweedejaars studenten"> tweedejaars studenten
+         <input type="radio" name="afstudeer studenten"> afstudeer studenten
+         <input type="radio" name="a onbekend">  onbekend
+        <textarea name="Opmerkingen" cols="60" rows="4">Opmerkingen</textarea>
+             </fieldset>
+             </form>
+
+
+<input type="submit">
+
+<h3>Stage</h3>
+
+
+        <form>
+        <fieldset>
+        <legend>Geschikt voor:</legend>
+        <input type="radio" name="eerstejaars studenten"> eerstejaars studenten
+        <input type="radio" name="tweedejaars studenten"> tweedejaars studenten
+        <input type="radio" name="derdejaars studenten"> derdejaars studenten
+        <input type="radio" name="afstudeer studenten"> afstudeer studenten
+        <input type="radio" name="a onbekend">  onbekend
+        </fieldset>
+        </form>
+
+        <form>
+
+        Hoe lang is de stage
+         <input type="radio" name="10 weken"> 10 weken
+         <input type="radio" name="20 weken">  20 weken
+       <label>Vanaf begin datum <input type="date" name="Begin datum"></label>
+
+
+         </form>
+
+      <h4>Beschrijving van werkzaamheden</h4>
+
+      Beschrijving stagewerkzaamheden
+
+        <form> <textarea name=" Beschrijving stagewerkzaamheden" cols="60" rows="4"> Beschrijving stagewerkzaamheden</textarea></form>
+
+        <form>
+
+            <label>Bedrijfsnaam  <input type="text" name="Bedrijfsnaam"></label>
+            <label>Adres <input type="text" name="Adres"></label>
+            <label>Postcode <input type="text" name="Postcode"></label>
+            <label>Plaats <input type="text" name="Plaats"></label>
+            <label>Sector <input type="text" name="Sector"></label>
+            <label>Core Business <input type="text" name="Core Business"></label>
+
+        </form>
+
+        <form> <textarea name="Opmerkingen" cols="60" rows="4">Opmerkingen</textarea></form>
+        <input type="submit">
+
+
+</body>
+</html>
