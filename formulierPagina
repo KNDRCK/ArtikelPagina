@@ -3,10 +3,13 @@
 
     <meta charset="UTF-8">
     <title>Formulierpagina</title>
+    <link rel="stylesheet" href="main.css">
 
 </head>
 
 <body>
+
+    <section>
 
       <h1>Aanmelden</h1>
 
@@ -27,8 +30,8 @@
         Voor vragen of opmerkingen kunt u <a href=#>contact</a> met ons op.
         </p>
 
-
-
+    </section>
+    
         <form>
           <fieldset>
              <legend>Contactgegevens:</legend>
@@ -38,89 +41,66 @@
             <label>Adres <input type="text" name="Adres"></label>
             <label>Postcode <input type="text" name="Postcode"></label>
             <label>Plaats <input type="text" name="Plaats"></label>
-            <label>Telefoon <input type="text" name="Telefoon"></label>
+            <label>Telefoon <input type="tel" name="Telefoon"></label>
           </fieldset>
-        </form>
-
+          
         <p> Ik wil mij aanmelden:</p>
+        
+        <label>Voor een project<input type="radio" name="aanmelden" value="Voor een project"> </label>
+        <label>Als stagebedrijf<input type="radio" name="aanmelden" value="Als stagebedrijf"> </label>
 
-        <form>
+    <section>
 
-        <input type="radio" name="aanmelden" value="Voor een project"> Voor een project
-        <input type="radio" name="aanmelden" value="Als stagebedrijf"> Als stagebedrijf
+        <h1>Project</h1>
 
-        </form>
-
-        <h2>Project</h2>
-
-        <h3>Project</h3>
-
-        <form>
         <label>Project Titel <input type="text" name="Titel"></label>
-        </form>
 
-        <form>
         <textarea name="Opdracht omschrijving" cols="30" rows="4">Opdracht omschrijving invoeren...</textarea>
-
 
         <textarea name="Doelgroep omschrijving" cols="30" rows="4">Doelgroep omschrijving invoeren...</textarea>
 
-
         <textarea name="Doelstelling" cols="30" rows="4">Doelstelling/intentie van het project!</textarea>
 
-        </form>
+        <label>Looptijd van <input type="date" name="Looptijd"></label>
+        <label>Tot <input type="date" name="Looptijd"></label>
+        <label>Deadline <input type="date" name="Deadline"></label>
 
-        <form>
-            <label>Looptijd van <input type="date" name="Looptijd"></label>
-            <label>Tot <input type="date" name="Looptijd"></label>
-            <label>Deadline <input type="date" name="Deadline"></label>
-        </form>
-
-
-        <form>
             <fieldset>
             <legend>Geschikt voor:</legend>
-         <input type="radio" name="tweedejaars studenten"> tweedejaars studenten
-         <input type="radio" name="afstudeer studenten"> afstudeer studenten
-         <input type="radio" name="a onbekend">  onbekend
-        <textarea name="Opmerkingen" cols="60" rows="4">Opmerkingen</textarea>
-             </fieldset>
-             </form>
+            <label><input type="radio" name="tweedejaars studenten"> tweedejaars studenten</label>
+            <label><input type="radio" name="afstudeer studenten"> afstudeer studenten</label>
+            <label><input type="radio" name="a onbekend">  onbekend</label>
+            <label><textarea name="Opmerkingen" cols="60" rows="4">Opmerkingen</textarea></label>
+            </fieldset>
 
+        <input type="submit">
+        
+    </section>
 
-<input type="submit">
+    <section>
+        <h1>Stage</h1>
 
-<h3>Stage</h3>
-
-
-        <form>
         <fieldset>
         <legend>Geschikt voor:</legend>
-        <input type="radio" name="eerstejaars studenten"> eerstejaars studenten
-        <input type="radio" name="tweedejaars studenten"> tweedejaars studenten
-        <input type="radio" name="derdejaars studenten"> derdejaars studenten
-        <input type="radio" name="afstudeer studenten"> afstudeer studenten
-        <input type="radio" name="a onbekend">  onbekend
+        <label>eerstejaars studenten<input type="radio" name="eerstejaars studenten"></label>
+        <label>tweedejaars studenten<input type="radio" name="tweedejaars studenten"></label>
+        <label>derdejaars studenten<input type="radio" name="derdejaars studenten"></label>
+        <label>afstudeer studenten<input type="radio" name="afstudeer studenten"></label>
+        <label>onbekend<input type="radio" name="a onbekend"></label>
         </fieldset>
-        </form>
 
-        <form>
-
-        Hoe lang is de stage
-         <input type="radio" name="10 weken"> 10 weken
-         <input type="radio" name="20 weken">  20 weken
-       <label>Vanaf begin datum <input type="date" name="Begin datum"></label>
-
-
-         </form>
+        <fieldset>
+         <legend>Hoe lang is de stage</legend>
+         <label> 10 weken<input type="radio" name="10 weken"></label>
+         <label> 20 weken<input type="radio" name="20 weken"></label>
+         <label>Vanaf begin datum <input type="date" name="Begin datum"></label>
+        </fieldset>
 
       <h4>Beschrijving van werkzaamheden</h4>
 
       Beschrijving stagewerkzaamheden
 
-        <form> <textarea name=" Beschrijving stagewerkzaamheden" cols="60" rows="4"> Beschrijving stagewerkzaamheden</textarea></form>
-
-        <form>
+        <textarea name=" Beschrijving stagewerkzaamheden" cols="60" rows="4"> Beschrijving stagewerkzaamheden</textarea>
 
             <label>Bedrijfsnaam  <input type="text" name="Bedrijfsnaam"></label>
             <label>Adres <input type="text" name="Adres"></label>
@@ -129,11 +109,10 @@
             <label>Sector <input type="text" name="Sector"></label>
             <label>Core Business <input type="text" name="Core Business"></label>
 
-        </form>
-
-        <form> <textarea name="Opmerkingen" cols="60" rows="4">Opmerkingen</textarea></form>
+        <textarea name="Opmerkingen" cols="60" rows="4">Opmerkingen</textarea>
         <input type="submit">
-
+    </section>
+     </form>
 
 </body>
 </html>
